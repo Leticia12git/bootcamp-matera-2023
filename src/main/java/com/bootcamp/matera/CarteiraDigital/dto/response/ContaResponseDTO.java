@@ -5,6 +5,9 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 
+/**
+ * Classe de resposta relacionado a conta
+ */
 @Getter
 @Setter
 public class ContaResponseDTO {

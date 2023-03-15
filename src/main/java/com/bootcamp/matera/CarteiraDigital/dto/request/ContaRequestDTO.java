@@ -3,6 +3,9 @@ package com.bootcamp.matera.CarteiraDigital.dto.request;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Classe de requisição da conta
+ */
 @Getter
 @Setter
 public class ContaRequestDTO {

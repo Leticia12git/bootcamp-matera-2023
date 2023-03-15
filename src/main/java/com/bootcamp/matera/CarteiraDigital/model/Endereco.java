@@ -5,6 +5,9 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
+/**
+ * Entidade relacionada ao Endereço
+ */
 @Getter
 @Setter
 @Entity

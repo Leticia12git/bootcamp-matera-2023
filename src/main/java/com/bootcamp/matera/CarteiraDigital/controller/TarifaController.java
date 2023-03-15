@@ -22,6 +22,12 @@ public class TarifaController {
     @Autowired
     private TipoTarifaRepository tipoTarifaRepository;
 
+    /**
+     * endpoint para buscar por nome
+     *
+     * @param nome
+     * @return TipoTarifa
+     */
     @GetMapping
     public TipoTarifa procuraPorNome(@RequestParam String nome) {
         return tipoTarifaRepository.findByNomeContaining(nome);

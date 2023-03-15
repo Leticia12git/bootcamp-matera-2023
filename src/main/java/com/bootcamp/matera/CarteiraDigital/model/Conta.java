@@ -18,7 +18,9 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
+/**
+ * Entidade relacionada a Conta
+ */
 @Entity
 @Data
 @Builder
@@ -105,7 +107,7 @@ public class Conta implements Serializable {
         return valor.compareTo(BigDecimal.ZERO) <= 0;
     }
 
-    public ContaResponseDTO toContaDto() {
+    public ContaResponseDTO toContaDTO() {
         ContaResponseDTO dto = new ContaResponseDTO();
         dto.setAgencia(this.getAgencia());
         dto.setNumero(this.getNumero());

@@ -6,6 +6,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
+/**
+ * Repositorio relacionada a Conta
+ */
 
 @Repository
 public interface ContaRepository extends JpaRepository<Conta, Long> {

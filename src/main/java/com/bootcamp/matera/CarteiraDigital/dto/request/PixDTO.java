@@ -6,6 +6,9 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 
+/**
+ * Classe de requisição do pix
+ */
 @Getter
 @Setter
 public class PixDTO {

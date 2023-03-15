@@ -8,6 +8,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+/**
+ * Entidade relacionada ao Tipo da tarifa
+ */
 @Getter
 @Setter
 @Entity

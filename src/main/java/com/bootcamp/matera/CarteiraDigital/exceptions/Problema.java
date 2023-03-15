@@ -5,6 +5,9 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
+/**
+ * Classe para passar uma mensagem quando a classe problema for chamada
+ */
 @Getter
 @Setter
 public class Problema {

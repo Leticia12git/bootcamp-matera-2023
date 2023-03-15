@@ -4,6 +4,9 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 
+/**
+ * Classe de requisição da conta
+ */
 @Data
 public class ContaDTO {
 
